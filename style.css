@@ -123,6 +123,7 @@ nav a:hover {
 .hamburger-menu {
   position: relative;
   display: inline-block;
+  z-index: 99;
 }
 
 .hamburger-icon {
