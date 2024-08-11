@@ -202,6 +202,24 @@ section {
   gap: 1rem;
 }
 
+.my-pic {
+  box-shadow: 0 0 35px rgba(76, 74, 77, 0.67);
+  border-radius: 50%;
+  animation: floatImg 4s ease-in-out infinite;
+}
+
+@keyframes floatImg {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(1.4rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 /* ICONS */
 
 .icon {
@@ -281,6 +299,19 @@ section {
 
 .about-pic {
   border-radius: 2rem;
+  animation: floatingimg 4s ease-in-out infinite;
+}
+
+@keyframes floatingimg {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(2.4rem);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 .arrow {
